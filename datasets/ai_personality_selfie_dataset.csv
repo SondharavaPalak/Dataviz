@@ -1,0 +1,21 @@
+image_id,user_selfie,extroversion_score,confidence_level,trustworthiness_score,smile_intensity,eye_contact_score,model_used,age_range,gender,emotion_category
+img_000.jpg,https://syntheticfaces.ai/img_000.jpg,0.62,0.6,0.56,0.52,0.41,CLIP-ViT-B/32 + GPT-4V,25-34,Other,Neutral
+img_001.jpg,https://syntheticfaces.ai/img_001.jpg,0.25,0.58,0.74,0.1,0.15,CLIP-ViT-B/32 + GPT-4V,18-24,Female,Surprised
+img_002.jpg,https://syntheticfaces.ai/img_002.jpg,0.33,0.27,0.14,0.86,0.48,CLIP-ViT-B/32 + GPT-4V,45-54,Male,Surprised
+img_003.jpg,https://syntheticfaces.ai/img_003.jpg,0.33,0.75,0.35,0.24,0.15,CLIP-ViT-B/32 + GPT-4V,18-24,Non-binary,Angry
+img_004.jpg,https://syntheticfaces.ai/img_004.jpg,0.41,0.14,0.91,0.45,0.33,CLIP-ViT-B/32 + GPT-4V,25-34,Female,Neutral
+img_005.jpg,https://syntheticfaces.ai/img_005.jpg,0.25,0.39,0.67,0.27,0.16,CLIP-ViT-B/32 + GPT-4V,35-44,Male,Sad
+img_006.jpg,https://syntheticfaces.ai/img_006.jpg,0.99,0.17,0.19,0.59,0.22,CLIP-ViT-B/32 + GPT-4V,35-44,Other,Neutral
+img_007.jpg,https://syntheticfaces.ai/img_007.jpg,0.59,0.93,0.3,0.56,0.56,CLIP-ViT-B/32 + GPT-4V,45-54,Other,Happy
+img_008.jpg,https://syntheticfaces.ai/img_008.jpg,0.85,0.19,0.31,0.09,0.04,CLIP-ViT-B/32 + GPT-4V,25-34,Female,Sad
+img_009.jpg,https://syntheticfaces.ai/img_009.jpg,0.2,0.96,0.18,0.58,0.74,CLIP-ViT-B/32 + GPT-4V,18-24,Female,Angry
+img_010.jpg,https://syntheticfaces.ai/img_010.jpg,0.66,0.69,0.79,0.73,0.32,CLIP-ViT-B/32 + GPT-4V,45-54,Other,Sad
+img_011.jpg,https://syntheticfaces.ai/img_011.jpg,0.3,0.26,0.4,0.1,0.98,CLIP-ViT-B/32 + GPT-4V,18-24,Other,Neutral
+img_012.jpg,https://syntheticfaces.ai/img_012.jpg,0.31,0.04,0.7,0.87,0.76,CLIP-ViT-B/32 + GPT-4V,55+,Other,Angry
+img_013.jpg,https://syntheticfaces.ai/img_013.jpg,0.06,0.61,0.45,0.78,0.33,CLIP-ViT-B/32 + GPT-4V,45-54,Other,Neutral
+img_014.jpg,https://syntheticfaces.ai/img_014.jpg,0.14,0.9,0.4,0.17,0.32,CLIP-ViT-B/32 + GPT-4V,35-44,Non-binary,Neutral
+img_015.jpg,https://syntheticfaces.ai/img_015.jpg,0.27,0.38,0.89,0.2,0.11,CLIP-ViT-B/32 + GPT-4V,35-44,Non-binary,Happy
+img_016.jpg,https://syntheticfaces.ai/img_016.jpg,0.54,0.5,0.96,0.89,0.66,CLIP-ViT-B/32 + GPT-4V,35-44,Non-binary,Neutral
+img_017.jpg,https://syntheticfaces.ai/img_017.jpg,0.53,0.85,0.09,0.69,0.32,CLIP-ViT-B/32 + GPT-4V,35-44,Male,Sad
+img_018.jpg,https://syntheticfaces.ai/img_018.jpg,0.89,0.31,0.94,0.34,0.65,CLIP-ViT-B/32 + GPT-4V,25-34,Other,Happy
+img_019.jpg,https://syntheticfaces.ai/img_019.jpg,0.78,0.82,0.87,0.99,0.85,CLIP-ViT-B/32 + GPT-4V,55+,Female,Neutral

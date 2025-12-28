@@ -1,0 +1,194 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Analysis Report - maharashtra-districts.csv</title>
+                <style>
+                    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+                    .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+                    h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+                    h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+                    h3 { color: #2c3e50; }
+                    .summary { background-color: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+                    .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0; }
+                    .stat-card { background-color: #3498db; color: white; padding: 20px; border-radius: 8px; text-align: center; }
+                    .stat-number { font-size: 2em; font-weight: bold; }
+                    .stat-label { font-size: 0.9em; opacity: 0.9; }
+                    .insight { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 10px 0; }
+                    .insight-type { font-weight: bold; color: #856404; text-transform: uppercase; font-size: 0.8em; }
+                    .graph { text-align: center; margin: 30px 0; }
+                    .graph img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; }
+                    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                    th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+                    th { background-color: #f2f2f2; font-weight: bold; }
+                    .footer { text-align: center; margin-top: 50px; color: #7f8c8d; font-size: 0.9em; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h1>Data Analysis Report</h1>
+                    <h2>maharashtra-districts.csv</h2>
+                    
+                    <div class="summary">s
+                        <h3>Executive Summary</h3>
+                        <p>This report provides a comprehensive analysis of the dataset 'maharashtra-districts.csv'. 
+                        The analysis includes data cleaning, exploratory data analysis, statistical insights, and visualizations.</p>
+                        
+                        <div class="stat-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">36</div>
+                                <div class="stat-label">Total Rows</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">17</div>
+                                <div class="stat-label">Total Columns</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">7</div>
+                                <div class="stat-label">Numeric Columns</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">9</div>
+                                <div class="stat-label">Categorical Columns</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Data Quality Assessment</h2>
+                    <table>
+                        <tr><th>Metric</th><th>Value</th></tr>
+                        <tr><td>Missing Values Handled</td><td>2</td></tr>
+                        <tr><td>Duplicate Records Removed</td><td>0</td></tr>
+                        <tr><td>Outliers Detected & Handled</td><td>17</td></tr>
+                        <tr><td>Processing Time</td><td>0.00 seconds</td></tr>
+                    </table>
+                    
+                    <h2>Key Insights</h2>
+            
+                    <div class="insight">
+                        <div class="insight-type">overview</div>
+                        <p>Dataset contains 36 rows and 17 columns after cleaning.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">correlation</div>
+                        <p>Strong positive correlation (0.842) between population_density_per_sq_km and urban_population_.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">correlation</div>
+                        <p>Strong positive correlation (0.813) between number_of_talukas and area_in_sq_km.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">data_quality</div>
+                        <p>Found and handled 2 missing values across the dataset.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">correlation</div>
+                        <p>Strong positive correlation (0.736) between population_census_2011 and population_density_per_sq_km.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">correlation</div>
+                        <p>Strong positive correlation (0.736) between population_census_2011 and urban_population_.</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">categorical</div>
+                        <p>Most common value in 'district_name' is 'Pune' (2.8% of data).</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">categorical</div>
+                        <p>Most common value in 'district_code' is 'PU' (2.8% of data).</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">categorical</div>
+                        <p>Most common value in 'administrative_division' is 'Chhatrapati Sambhaji Nagar Division' (22.2% of data).</p>
+                    </div>
+                
+                    <div class="insight">
+                        <div class="insight-type">categorical</div>
+                        <p>Most common value in 'headquarters' is 'Pune' (2.8% of data).</p>
+                    </div>
+                
+                    <h2>Descriptive Statistics</h2>
+                    <table>
+                        <tr><th>Column</th><th>Mean</th><th>Median</th><th>Std Dev</th><th>Min</th><th>Max</th></tr>
+                
+                        <tr>
+                            <td>number_of_talukas</td>
+                            <td>9.94</td>
+                            <td>9.50</td>
+                            <td>3.97</td>
+                            <td>0.00</td>
+                            <td>16.00</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>area_in_sq_km</td>
+                            <td>8560.67</td>
+                            <td>7701.50</td>
+                            <td>4095.97</td>
+                            <td>157.00</td>
+                            <td>17048.00</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>population_census_2011</td>
+                            <td>2945570.95</td>
+                            <td>2610229.00</td>
+                            <td>1691177.82</td>
+                            <td>849651.00</td>
+                            <td>6879520.75</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>population_density_per_sq_km</td>
+                            <td>319.96</td>
+                            <td>286.00</td>
+                            <td>124.82</td>
+                            <td>74.00</td>
+                            <td>555.12</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>sex_ratio</td>
+                            <td>945.33</td>
+                            <td>944.50</td>
+                            <td>29.99</td>
+                            <td>884.50</td>
+                            <td>1004.50</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>literacy_rate_</td>
+                            <td>80.91</td>
+                            <td>81.91</td>
+                            <td>5.46</td>
+                            <td>66.05</td>
+                            <td>89.91</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>urban_population_</td>
+                            <td>31.51</td>
+                            <td>26.35</td>
+                            <td>16.13</td>
+                            <td>11.00</td>
+                            <td>64.70</td>
+                        </tr>
+                    </table>
+                    <div class="footer">
+                        <p>Report generated on 2025-08-19 14:26:57</p>
+                        <p>Data Analysis System - Automated Report Generation</p>
+                    </div>
+                </div>
+            </body>
+            </html>
+            
