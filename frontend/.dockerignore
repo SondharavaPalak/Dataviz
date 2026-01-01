@@ -1,0 +1,15 @@
+# Frontend .dockerignore
+node_modules/
+npm-debug.log
+.git
+.gitignore
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode
+.idea
+.DS_Store
+build/
+.pytest_cache
+*.log
